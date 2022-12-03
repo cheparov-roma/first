@@ -1,0 +1,165 @@
+body {
+    background-image:url(фон.jpg);
+    background-size:contain
+}
+
+.main {
+    margin-left: 10%;
+
+}
+
+.container {
+    width: 90%;
+    text-align: center; 
+    display: flex;   
+}
+
+@media (max-width: 700px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+}
+
+.firstdiv {
+    width: 500px;
+    height: 2200px;
+    background-color: rgb(36, 35, 35);    
+}
+
+.aboutme {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.seconddiv {
+    background-color:rgb(207, 207, 207);
+    width: 1000px;
+    height: 2200px;
+}
+
+.exp {
+    margin: 100px;
+}
+
+h1 {
+    color:aliceblue;
+    text-align:left;
+}
+#one {
+    color: aliceblue;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 162, 255);
+    text-align: left;
+}
+.ptwo {
+    color:aliceblue;
+    text-align: left;
+    font-size: larger;
+}
+
+.a1 {
+    color:antiquewhite;
+    text-decoration: none;  
+}
+
+.a1:hover {
+    text-decoration:underline;
+}
+
+.a1:visited {
+    color: rgb(197, 197, 197);
+}
+
+label {
+    color: aliceblue;
+}
+
+form {
+    text-align: left;
+}
+
+/* #name {
+    width: 320px;
+}
+
+#email {
+    width: 308px;
+} */
+
+.form-group label {
+    display: block;
+    padding: 5px 0px 5px;
+}
+
+.form-group input {
+    width: 99%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 0px 15px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    border: none;
+    outline: none;
+}
+
+.btn {
+    color:rgb(255, 255, 255);
+    background-color:rgb(26, 23, 23);
+    padding: 10px 15px 10px;
+    border-radius: 15%;
+}
+
+.icons {
+    width: 20px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.ul1 {
+    list-style-type: square;
+}
+
+h2 {
+    font-size:xx-large;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color:black;
+}
+
+.table1 {
+    text-align:start;
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.table1 td {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.table1 thead {
+    background-color: rgb(160, 157, 157);
+}
+
+.li1 {
+    font-size:larger;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
